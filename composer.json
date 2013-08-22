@@ -25,11 +25,11 @@
         "bjyoungblood/BjyAuthorize": ">=1.3",
         "doctrine/doctrine-orm-module": ">=0.7",
         "zf-commons/zfc-user": ">=0.1",
-        "zf-commons/zfc-user-doctrine-orm": ">=0.1",
+        "zf-commons/zfc-user-doctrine-orm": ">=0.1"
     },
     "autoload": {
         "psr-0": {
             "AhUser\\": "src/"
         }
-    },
+    }
 }
