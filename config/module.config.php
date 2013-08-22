@@ -18,9 +18,13 @@ return array(
  
     'zfcuser' => array(
         // telling ZfcUser to use our own class
-        'user_entity_class'       => 'AhUser\Entity\User',
+        'user_entity_class'         => 'AhUser\Entity\User',
         // telling ZfcUserDoctrineORM to skip the entities it defines
-        'enable_default_entities' => false,
+        'enable_default_entities'   => false,
+        //enable registering
+        'enable_registration'       => true,
+        //enable username
+        'enable_username'           => true,
     ),
     
     'bjyauthorize' => array(
