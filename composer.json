@@ -1,5 +1,5 @@
 {
-    "name":         " aydin-hassan/ah-user",
+    "name":         "aydin-hassan/ah-user",
     "description":  "ZF2 Module to allow Doctrine2, ZfcUser & BjyAuthorize to work together",
     "type":         "library",
     "license":      "MIT",
