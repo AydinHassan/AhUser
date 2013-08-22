@@ -1,0 +1,35 @@
+{
+    "name":         " aydin-hassan/ah-user",
+    "description":  "ZF2 Module to allow Doctrine2, ZfcUser & BjyAuthorize to work together",
+    "type":         "library",
+    "license":      "MIT",
+    "homepage":     "https://github.com/AydinHassan/AhUser",
+    "keywords": [
+        "zf2",
+        "acl",
+        "zfc-user",
+        "bjyauthorize",
+        "doctrine2"
+    ],
+    "authors": [
+        {
+            "name":      "Aydin Hassan",
+            "email":     "aydin@hotmail.co.uk",
+            "homepage":  "https://github.com/AydinHassan",
+            "role":      "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "bjyoungblood/BjyAuthorize": ">=1.3",
+        "doctrine/doctrine-orm-module": ">=0.7",
+        "zf-commons/zfc-user": ">=0.1",
+        "zf-commons/zfc-user-doctrine-orm": ">=0.1",
+    },
+    "autoload": {
+        "psr-0": {
+            "AhUser\\": "src/"
+        }
+    },
+}
