@@ -132,7 +132,7 @@ class Module implements
             'ZfcBase',
             'ZfcUser',
             'ZfcUserDoctrineORM',
-            'BjyAuthorize',
+            //'BjyAuthorize',
         );
     }
 }
